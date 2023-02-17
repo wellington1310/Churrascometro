@@ -1,0 +1,135 @@
+*{margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html,body{
+       width: 100%;
+       height: 100%;
+      overflow: auto;
+}
+
+
+
+body{ background-image: url(./imagens/fundo.webp);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+}
+
+
+
+#logo{  width: 420px;
+
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+       
+
+}
+
+
+
+
+#container{ max-width: 353px;
+           background-color: rgb(24, 66, 63);
+           border: 2px solid  rgb(0, 0, 0);
+           height: 695px;
+           padding: 10px;
+           text-align: center;    
+          box-sizing: border-box;
+          position: absolute;
+          right: 0%;
+          border-radius: 2%;
+          overflow: hidden;
+          
+        }
+
+
+
+.inputs{max-width: 100%; 
+        
+      margin-bottom: 30px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+#primeiro{ margin-top: 120px;
+
+}  
+
+
+
+button{text-align: center;
+        width: 180px;  
+      display: block;
+        margin: auto;
+        margin-top: 10px;
+        padding: 15px;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 30%;
+        border: 2px solid rgb(0, 0, 0);
+        background-color: rgb(15, 47, 45);  
+           
+}
+
+button:hover{
+
+      color: rgb(15, 47, 45);  
+      background-color: black;
+      border: 2px solid rgb(15, 47, 45);
+}
+
+
+
+#novo{ text-align: left;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-20%);
+      margin-top: 20px;
+      font-weight: bold;
+      width: 400px;
+      font-size: 16px;
+      
+      
+      
+}
+#boi{ position: absolute;
+      right: 425px;
+        bottom: 170px;
+        
+      
+}
+#porco{ position: absolute;
+      right: 425px;
+      bottom: 135px;
+
+}
+#frango{ position: absolute;
+     right: 425px;
+      bottom: 100px;
+
+}
+#lingui{ position: absolute;
+      right: 425px;
+      bottom: 65px;
+
+}
+#cerveja{position: absolute;
+      right: 421px;
+      top: 135px;
+
+}
+#refri{
+      position: absolute;
+      right: 423px;
+      top: 175px;
+}
